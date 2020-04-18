@@ -1,4 +1,4 @@
-hostname = www.52pojie.cn, *.iqiyi.com,
+hostname = www.52pojie.cn, *.iqiyi.com
 #52破解
 http-request https:\/\/www\.52pojie\.cn\/home\.php\? script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/52pojieDailyBonus/Get-Cookie.js
 #爱奇艺
