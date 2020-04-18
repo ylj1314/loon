@@ -44,3 +44,14 @@ http-request ^https:\/\/zt.wps.cn\/2018\/docer_check_in\/api\/act_list script-pa
 http-request ^https:\/\/zt.wps.cn\/2018\/clock_in\/api\/sign_up script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.cookie.js
 #喜马拉雅
 http-request ^https?:\/\/.*\/mobile\-user\/homePage\/.* script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.cookie.js
+#京东成长分
+^https:\/\/ms\.jr\.jd\.com\/gw\/generic\/bt\/h5\/m\/queryUserSignFlow script-path=https://raw.githubusercontent.com/ylj1314/Quan/master/jdczf.js
+#喜马拉雅微信
+https://m.ximalaya.com/wechat/ script-path=https://raw.githubusercontent.com/ylj1314/Quan/master/xmly_wc.js
+#鱼吧
+^https://yuba.douyu.com/wbapi/web/group/myFollow script-path=https://raw.githubusercontent.com/ylj1314/Quan/master/yubaSign.js
+
+#饿了么
+http-request ^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$ script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemGetCookies.js
+#活动抽奖
+http-request ^https:\/\/api-hdcj\.9w9\.com\/v\d\/sign script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/WeChatLottery/WeChatLottery_new.js
